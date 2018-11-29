@@ -8,7 +8,7 @@ Bootstrap 4 CSS ( No more jQuery :D !)
 
 VueJs
 
-PHP 5.7
+PHP 7.2
 
 The css and js are building via webpack.
 
