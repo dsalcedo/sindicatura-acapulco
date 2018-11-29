@@ -13,5 +13,3 @@ PHP 7.2
 The css and js are building via webpack.
 
 > npm run dev
-
-
