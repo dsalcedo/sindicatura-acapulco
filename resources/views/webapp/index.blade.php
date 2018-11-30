@@ -1,0 +1,1 @@
+@extends('webapp.app')

@@ -68,7 +68,7 @@ class RouteServiceProvider extends ServiceProvider
     protected function mapWebappRoutes()
     {
         Route::prefix('app')
-            ->middleware(['web', 'auth'])
+            ->middleware('web')
             ->namespace($this->namespace)
             ->group(base_path('routes/webapp.php'));
     }
@@ -83,7 +83,7 @@ class RouteServiceProvider extends ServiceProvider
     protected function mapManagerRoutes()
     {
         Route::prefix('manager')
-            ->middleware(['web', 'auth'])
+            ->middleware('web')
             ->namespace($this->namespace)
             ->group(base_path('routes/manager.php'));
     }
