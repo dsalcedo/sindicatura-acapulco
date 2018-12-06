@@ -11615,3 +11615,17 @@ a.text-gob-gold-two:focus {
   font-family: 'Montserrat', sans-serif;
 }
 
+.form-control-gob-red-one {
+  background-color: #9D2449;
+  border-color: #621132;
+  color: #D4C19C;
+}
+
+.navbar-gob-red-one .navbar-nav .nav-link {
+  color: #D4C19C;
+}
+
+.navbar-gob-red-one .navbar-brand {
+  color: #fff;
+}
+

@@ -53,7 +53,10 @@ body {
 }
 
 .sidebar .nav-link.active {
-    color: #007bff;
+    color: $gob-gold-one;
+}
+.sidebar .nav-link:hover {
+    color: $gob-red-one;
 }
 
 .sidebar .nav-link:hover .feather,
