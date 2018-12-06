@@ -16,3 +16,17 @@
 .montserrat {
     font-family: 'Montserrat', sans-serif;
 }
+
+.form-control-gob-red-one {
+    background-color: $gob-red-one;
+    border-color: $gob-red-two;
+    color: $gob-gold-two;
+}
+
+.navbar-gob-red-one .navbar-nav .nav-link {
+    color: $gob-gold-two;
+}
+
+.navbar-gob-red-one .navbar-brand {
+    color: $white;
+}

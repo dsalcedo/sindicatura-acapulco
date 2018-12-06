@@ -11607,8 +11607,26 @@ a.text-gob-gold-two:focus {
   }
 }
 
+.nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
 .montserrat {
   font-family: 'Montserrat', sans-serif;
+}
+
+.form-control-gob-red-one {
+  background-color: #9D2449;
+  border-color: #621132;
+  color: #D4C19C;
+}
+
+.navbar-gob-red-one .navbar-nav .nav-link {
+  color: #D4C19C;
+}
+
+.navbar-gob-red-one .navbar-brand {
+  color: #fff;
 }
 
 body {
@@ -11666,7 +11684,11 @@ body {
 }
 
 .sidebar .nav-link.active {
-  color: #007bff;
+  color: #B38E5D;
+}
+
+.sidebar .nav-link:hover {
+  color: #9D2449;
 }
 
 .sidebar .nav-link:hover .feather,
