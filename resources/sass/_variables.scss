@@ -18,3 +18,21 @@ $yellow: #ffed4a;
 $green: #38c172;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
+$morena: #a63f33;
+$gob-red-one: #9D2449;
+$gob-red-two: #621132;
+$gob-red-three: #4E232E;
+$gob-red-four: #56242A;
+$gob-gold-one: #B38E5D;
+$gob-gold-two: #D4C19C;
+$light: #eaeaea;
+
+$theme-colors: (
+    "morena": $morena,
+    "gob-red-one": $gob-red-one,
+    "gob-red-two": $gob-red-two,
+    "gob-red-three": $gob-red-three,
+    "gob-red-four": $gob-red-four,
+    "gob-gold-one": $gob-gold-one,
+    "gob-gold-two": $gob-gold-two,
+);
