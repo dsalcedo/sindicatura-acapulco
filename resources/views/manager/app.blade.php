@@ -13,7 +13,9 @@
 </head>
 <body>
 <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Company name</a>
+    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">
+        Sindicatura Digital Acapulco
+    </a>
     <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
     <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
@@ -23,76 +25,77 @@
 </nav>
 <div class="container-fluid" id="app">
     <div class="row">
+        <!-- TODO: Convertir a componente de VueJS -->
         <nav class="col-md-2 d-none d-md-block bg-light sidebar">
             <div class="sidebar-sticky">
                 <ul class="nav flex-column">
                     <li class="nav-item">
                         <a class="nav-link active" href="#">
-                            <span data-feather="home"></span>
+                            <span data-feather="activity"></span>
                             Dashboard <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            <span data-feather="file"></span>
-                            Orders
+                            <span data-feather="book-open"></span>
+                            Sindicatura Informa
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            <span data-feather="shopping-cart"></span>
-                            Products
+                            <span data-feather="bookmark"></span>
+                            Convocatorias
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
                             <span data-feather="users"></span>
-                            Customers
+                            Reportes ciudadanos
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
                             <span data-feather="bar-chart-2"></span>
-                            Reports
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <span data-feather="layers"></span>
-                            Integrations
+                            Analíticas
                         </a>
                     </li>
                 </ul>
 
                 <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-                    <span>Saved reports</span>
+                    <span>Plataforma</span>
                     <a class="d-flex align-items-center text-muted" href="#">
-                        <span data-feather="plus-circle"></span>
+                        <span data-feather="settings"></span>
                     </a>
                 </h6>
                 <ul class="nav flex-column mb-2">
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            <span data-feather="file-text"></span>
-                            Current month
+                            <span data-feather="clipboard"></span>
+                            Departamentos
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            <span data-feather="file-text"></span>
-                            Last quarter
+                            <span data-feather="flag"></span>
+                            Categorías
+                        </a>
+                    </li>
+                </ul>
+
+                <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                    <span>Cuenta</span>
+                </h6>
+                <ul class="nav flex-column mb-2">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span data-feather="lock"></span>
+                            Mi perfil
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            <span data-feather="file-text"></span>
-                            Social engagement
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <span data-feather="file-text"></span>
-                            Year-end sale
+                            <span data-feather="power"></span>
+                            Salir
                         </a>
                     </li>
                 </ul>
