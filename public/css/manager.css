@@ -11741,3 +11741,45 @@ body {
           box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.25);
 }
 
+.news-card{
+    margin: 20px 0;
+}
+
+.news-card2{
+  padding:15px 20px; 
+}
+
+.news-head{
+  display: flex; 
+  align-items: center; 
+}
+
+.news-option{
+  margin: 0 10px;
+}
+
+.news-span{
+  height: 25px;
+  width: 25px;
+}
+
+.perfil-image{
+  width:70px; height:70px; border-radius:150px;border:1px solid #666;
+}
+
+.news-item{
+  margin: 10px 10px;
+}
+
+.carousel-size{
+  height: 400px;
+}
+
+.news-title{
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.news-contenido {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
